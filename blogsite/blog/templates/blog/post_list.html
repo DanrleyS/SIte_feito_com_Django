@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog - Lista de Postagens</title>
+</head>
+<body>
+    <h1>Lista de Postagens</h1>
+    <ul>
+        {% for post in posts %}
+            <li>
+                <a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a>
+                <p>{{ post.created_at }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
