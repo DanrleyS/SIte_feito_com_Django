@@ -1,4 +1,5 @@
-Projeto Django: Blog com Sistema de Postagens e Painel Administrativo
+Projeto Django: Blog com Sistema de Postagens e Painel Administrativo:
+
 Desenvolvi um blog simples utilizando o framework Django, onde é possível criar, editar, excluir e listar postagens. O projeto foi implementado com o objetivo de aprender e aprimorar minhas habilidades no desenvolvimento de aplicações web com Django. As principais funcionalidades do projeto incluem:
 
 Criação de Postagens: Permite aos usuários cadastrados criar postagens, com título, conteúdo e data de publicação.
