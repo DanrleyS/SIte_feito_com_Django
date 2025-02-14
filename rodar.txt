@@ -3,6 +3,7 @@ no terminal:
 cd blogsite
 .venv\Scripts\activate
 
+cd blogsite
 python manage.py makemigrations
 python manage.py migrate
 
